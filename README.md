@@ -1,99 +1,109 @@
 <h1>Full Stack Food Ordering Website (MERN)</h1>
 
-This is a Full Stack Food Ordering Web Application built using the MERN stack with a separate Frontend, Admin Panel, and Backend API.
-The project allows users to browse food items, manage cart items, place orders, and make online payments.
-Admins can manage food items, view all orders, and update order statuses.
+<p>
+This project is a complete Food Ordering Web Application built using the MERN stack. 
+It includes a User Frontend, Admin Panel, and Backend API. 
+Users can browse food items, manage their cart, place orders, and make secure online payments. 
+Admins can manage products, view all orders, and update order statuses.
+</p>
 
-📁 Project Structure
+<h3>📁 Project Structure</h3>
 
-
+<pre>
 mern-project/
 │
 ├── Tomato/
-│   ├── Admin/        # Admin Panel (React + Vite)
-│   ├── Backend/      # Express API + MongoDB + Stripe
-│   └── frontend/     # User Website (React + Vite)
+│   ├── Admin/         # Admin Panel (React + Vite)
+│   ├── Backend/       # Express API + MongoDB + Stripe
+│   └── frontend/      # User Website (React + Vite)
 │
 ├── .gitignore
-├── package.json      # Root package for running all projects together
+├── package.json       # Root package to run all apps together
 └── README.md
+</pre>
 
-🚀 Tech Stack (Exactly As Used)
+<h3>🚀 Tech Stack</h3>
 
-Frontend (User Website - /Tomato/frontend)
+<h2>Frontend (/Tomato/frontend)</h2>
+<ul>
+  <li>React 18</li>
+  <li>React Router DOM 6</li>
+  <li>Axios</li>
+  <li>Vite</li>
+</ul>
 
-React 18
-React Router DOM 6
-Axios
-Vite
+<h2>Admin Panel (/Tomato/Admin)</h2>
+<ul>
+  <li>React 18</li>
+  <li>React Router DOM 7</li>
+  <li>Axios</li>
+  <li>React Toastify</li>
+  <li>Vite</li>
+</ul>
 
-Admin Panel (/Tomato/Admin)
+<h2>Backend (/Tomato/Backend)</h2>
+<ul>
+  <li>Node.js + Express.js</li>
+  <li>MongoDB + Mongoose</li>
+  <li>JWT Authentication</li>
+  <li>Multer (Image Uploads)</li>
+  <li>Bcrypt</li>
+  <li>Stripe</li>
+  <li>Validator</li>
+  <li>dotenv</li>
+  <li>Nodemon</li>
+</ul>
 
-React 18
-React Router DOM 7
-Axios
-React Toastify
-Vite
+<h2>Root</h2>
+<ul>
+  <li>Concurrently (runs all 3 apps together)</li>
+</ul>
 
-Backend (/Tomato/Backend)
+<h3>🧩 Features</h3>
 
-Node.js + Express.js
-MongoDB + Mongoose
-JWT Authentication
-Multer (for image upload)
-Bcrypt
-Stripe
-Validator
-dotenv
-Nodemon
+<h2>User Features</h2>
+<ul>
+  <li>Browse food items</li>
+  <li>Add to cart / remove from cart</li>
+  <li>User authentication (Login & Register)</li>
+  <li>Place orders</li>
+  <li>Stripe-based payment verification</li>
+  <li>View order history</li>
+</ul>
 
-Root--------
-Concurrently (to run all 3 apps together)
+<h2>Admin Features</h2>
+<ul>
+  <li>Add new food items</li>
+  <li>Delete food items</li>
+  <li>View all orders</li>
+  <li>Update order status</li>
+</ul>
 
+<h2>Backend Features</h2>
+<ul>
+  <li>REST API with Express.js</li>
+  <li>JWT authentication</li>
+  <li>Mongoose models</li>
+  <li>Multer-based image uploading</li>
+  <li>Stripe payment integration</li>
+  <li>Cleanly structured routes</li>
+</ul>
 
-🧩 Features-------------
+<h3>🔧 Environment Variables</h3>
 
-User Features---
+<p><strong>Backend (.env file - /Tomato/Backend/.env)</strong></p>
 
-Browse food items
-Add to cart
-Remove from cart
-Login & Register
-Place orders
-Stripe-based payment verification
-View user orders
-
-Admin Features---
-
-Add new food items
-Remove food items
-View all orders
-Update order status
-
-Backend Features---
-
-REST API (Express.js)
-JWT authentication
-MongoDB + Mongoose models
-Image upload using Multer
-Stripe payment intent + verification
-Clean route structure
-
-
-🔧 Environment Variables--------
-
-Backend (/Tomato/Backend/.env)
-
+<pre>
 MONGO_URI=your_mongo_url
 JWT_SECRET=your_secret
 STRIPE_SECRET_KEY=your_stripe_secret
+</pre>
 
+<h3>▶️ Running the Project</h3>
 
-▶️ Running the Project---------
-1. Install dependencies
+<h2>1. Install Dependencies</h2>
 
-Go to each folder:
-
+<pre>
 cd Tomato/Admin
 npm install
 
@@ -102,20 +112,22 @@ npm install
 
 cd ../frontend
 npm install
+</pre>
 
-2. Start all projects together
+<h2>2. Start All Projects Together</h2>
 
-From the root directory:
+<p>Run this from the root directory:</p>
 
+<pre>
 npm run dev
+</pre>
 
+<h3>Local URLs</h3>
+<ul>
+  <li><strong>Backend:</strong> http://localhost:4000</li>
+  <li><strong>Frontend:</strong> http://localhost:5173</li>
+  <li><strong>Admin Panel:</strong> http://localhost:5174</li>
+</ul>
 
-This runs all three:
-
-Backend: http://localhost:4000
-Frontend: usually http://localhost:5173
-Admin: usually http://localhost:5174
-
-🙌 Author
-
-Suraj Pathak
+<h2>🙌 Author</h2>
+<p><strong>Suraj Pathak</strong></p>
