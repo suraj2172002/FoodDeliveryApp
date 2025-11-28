@@ -1,10 +1,10 @@
-🍔 Full Stack Food Ordering Website (MERN)
+<h1>Full Stack Food Ordering Website (MERN)</h1>
 
 This is a Full Stack Food Ordering Web Application built using the MERN stack with a separate Frontend, Admin Panel, and Backend API.
 The project allows users to browse food items, manage cart items, place orders, and make online payments.
 Admins can manage food items, view all orders, and update order statuses.
 
-📁 Project Structure-----
+📁 Project Structure
 
 
 mern-project/
@@ -18,7 +18,7 @@ mern-project/
 ├── package.json      # Root package for running all projects together
 └── README.md
 
-🚀 Tech Stack (Exactly As Used)------
+🚀 Tech Stack (Exactly As Used)
 
 Frontend (User Website - /Tomato/frontend)
 
