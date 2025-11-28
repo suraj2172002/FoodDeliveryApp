@@ -7,7 +7,7 @@ Users can browse food items, manage their cart, place orders, and make secure on
 Admins can manage products, view all orders, and update order statuses.
 </p>
 
-<h3>📁 Project Structure</h3>
+<h2>📁 Project Structure</h2>
 
 <pre>
 mern-project/
@@ -22,9 +22,9 @@ mern-project/
 └── README.md
 </pre>
 
-<h3>🚀 Tech Stack</h3>
+<h2>🚀 Tech Stack (Exactly As Used)</h2>
 
-<h2>Frontend (/Tomato/frontend)</h2>
+<h3>Frontend (User Website - /Tomato/frontend)</h3>
 <ul>
   <li>React 18</li>
   <li>React Router DOM 6</li>
@@ -32,7 +32,7 @@ mern-project/
   <li>Vite</li>
 </ul>
 
-<h2>Admin Panel (/Tomato/Admin)</h2>
+<h3>Admin Panel (/Tomato/Admin)</h3>
 <ul>
   <li>React 18</li>
   <li>React Router DOM 7</li>
@@ -41,7 +41,7 @@ mern-project/
   <li>Vite</li>
 </ul>
 
-<h2>Backend (/Tomato/Backend)</h2>
+<h3>Backend (/Tomato/Backend)</h3>
 <ul>
   <li>Node.js + Express.js</li>
   <li>MongoDB + Mongoose</li>
@@ -54,14 +54,14 @@ mern-project/
   <li>Nodemon</li>
 </ul>
 
-<h2>Root</h2>
+<h3>Root</h3>
 <ul>
   <li>Concurrently (runs all 3 apps together)</li>
 </ul>
 
-<h3>🧩 Features</h3>
+<h2>🧩 Features</h2>
 
-<h2>User Features</h2>
+<h3>User Features</h3>
 <ul>
   <li>Browse food items</li>
   <li>Add to cart / remove from cart</li>
@@ -71,7 +71,7 @@ mern-project/
   <li>View order history</li>
 </ul>
 
-<h2>Admin Features</h2>
+<h3>Admin Features</h3>
 <ul>
   <li>Add new food items</li>
   <li>Delete food items</li>
@@ -79,7 +79,7 @@ mern-project/
   <li>Update order status</li>
 </ul>
 
-<h2>Backend Features</h2>
+<h3>Backend Features</h3>
 <ul>
   <li>REST API with Express.js</li>
   <li>JWT authentication</li>
@@ -89,7 +89,7 @@ mern-project/
   <li>Cleanly structured routes</li>
 </ul>
 
-<h3>🔧 Environment Variables</h3>
+<h2>🔧 Environment Variables</h2>
 
 <p><strong>Backend (.env file - /Tomato/Backend/.env)</strong></p>
 
@@ -99,9 +99,9 @@ JWT_SECRET=your_secret
 STRIPE_SECRET_KEY=your_stripe_secret
 </pre>
 
-<h3>▶️ Running the Project</h3>
+<h2>▶️ Running the Project</h2>
 
-<h2>1. Install Dependencies</h2>
+<h3>1. Install Dependencies</h3>
 
 <pre>
 cd Tomato/Admin
@@ -114,7 +114,7 @@ cd ../frontend
 npm install
 </pre>
 
-<h2>2. Start All Projects Together</h2>
+<h3>2. Start All Projects Together</h3>
 
 <p>Run this from the root directory:</p>
 
