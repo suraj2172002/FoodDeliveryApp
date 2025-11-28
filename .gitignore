@@ -1,51 +1,30 @@
-# ------------------------------------------------
-# GLOBAL IGNORE (Applies to Admin, Backend, Frontend)
-# ------------------------------------------------
+# Node Modules
+node_modules/
+Tomato/Admin/node_modules/
+Tomato/Backend/node_modules/
+Tomato/frontend/node_modules/
 
-# Node modules
-/node_modules/
-Admin/node_modules/
-Backend/node_modules/
-frontend/node_modules/
+# Environment Files
+*.env
+*.env.*
 
-# Build / dist folders
-Admin/dist/
-Admin/build/
-Backend/dist/
-frontend/dist/
-frontend/build/
+# Build Files
+dist/
+build/
+Tomato/Admin/dist/
+Tomato/Backend/dist/
+Tomato/frontend/dist/
+Tomato/Admin/build/
+Tomato/frontend/build/
 
-# Environment Variables
-Admin/.env
-Backend/.env
-frontend/.env
-
-Admin/.env.*
-Backend/.env.*
-frontend/.env.*
+# Uploads
+Tomato/Backend/Upload/
 
 # Logs
 *.log
-logs/
-npm-debug.log*
-yarn-debug.log*
-pnpm-error.log*
 
-# OS / Editor junk
+# System Files
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
-
-# Cache folders
-.cache/
-Admin/.cache/
-frontend/.next/
-frontend/.parcel-cache/
-
-# Uploads (if stored locally)
-Backend/uploads/
-Admin/uploads/
-
-# Testing / coverage
-coverage/
