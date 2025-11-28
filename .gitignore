@@ -1,0 +1,51 @@
+# ------------------------------------------------
+# GLOBAL IGNORE (Applies to Admin, Backend, Frontend)
+# ------------------------------------------------
+
+# Node modules
+/node_modules/
+Admin/node_modules/
+Backend/node_modules/
+frontend/node_modules/
+
+# Build / dist folders
+Admin/dist/
+Admin/build/
+Backend/dist/
+frontend/dist/
+frontend/build/
+
+# Environment Variables
+Admin/.env
+Backend/.env
+frontend/.env
+
+Admin/.env.*
+Backend/.env.*
+frontend/.env.*
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-error.log*
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Cache folders
+.cache/
+Admin/.cache/
+frontend/.next/
+frontend/.parcel-cache/
+
+# Uploads (if stored locally)
+Backend/uploads/
+Admin/uploads/
+
+# Testing / coverage
+coverage/

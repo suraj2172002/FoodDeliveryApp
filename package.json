@@ -1,0 +1,12 @@
+{
+    "name": "mern-project",
+    "version": "1.0.0",
+    "scripts": {
+  "dev": "concurrently \"npm run server --prefix Tomato/Backend\" \"npm run dev --prefix Tomato/frontend\" \"npm run dev --prefix Tomato/Admin\""
+}
+,
+    "devDependencies": {
+      "concurrently": "^8.0.1"
+    }
+  }
+  
