@@ -17,9 +17,6 @@ Tomato/frontend/dist/
 Tomato/Admin/build/
 Tomato/frontend/build/
 
-# Uploads
-Tomato/Backend/Upload/
-
 # Logs
 *.log
 
